@@ -8,15 +8,15 @@ describe FizzBuzz do
    expect(subject.check(2)).to eq 2 
   end
 
-  xit 'is expected to return fizz if the number is divisible by 3' do
+  it 'is expected to return fizz if the number is divisible by 3' do
     expect(subject.check(3)).to eq 'fizz'
   end
   
-  xit 'is expected to return buzz if the number is divisible by 5' do
+  it 'is expected to return buzz if the number is divisible by 5' do
     expect(subject.check(5)).to eq 'buzz'
   end 
 
-  xit 'is expected to return fizzbuzz if the number is divisible by 15' do
+  it 'is expected to return fizzbuzz if the number is divisible by 15' do
     expect(subject.check(15)).to eq 'fizz-buzz'    
   end
 end
