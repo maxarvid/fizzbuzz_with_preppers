@@ -3,7 +3,7 @@ const FizzBuzz = require('../src/fizzBuzz')
 const subject = new FizzBuzz();
 
 describe("FizzBuzz", () => {
-  it.only("is expected to return a number is none of the game rules apply", () => {
+  it("is expected to return a number is none of the game rules apply", () => {
     expect(subject.check(1)).toEqual(1)
   });
 
